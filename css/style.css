@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO DEL HEADER */
+
+.custom-header {
+    width: 100%;
+    height: 140px;
+    background-color: #24303c;
+    color: white;
+}
+  
+.custom-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+  
+.header-logo {
+    width: 25%;
+}
+  
+.header-title {
+    width: 60%;
+    text-align: center;
+}
+  
+.header-social {
+    width: 15%;
+}
+  
+.header-title h1,
+.header-title p {
+    color: white;
+}
+  
+
+/* ESTILO NAVBAR */
+
+.custom-navbar {
+    background-color: #ffffff;
+}
+  
+.custom-navbar .nav-link {
+    color: #000000;
+    transition: color 0.2s ease-in-out;
+}
+  
+.custom-navbar .nav-link:hover {
+    color: #000000;
+}
+
+
+/* ESTILO MAIN - PAGINA INICIO*/
+
+.video-section {
+    width: 100%;
+    height: 35vh;
+    overflow: hidden;
+}
+  
+.video-full {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.main-section h3 {
+    font-size: 1.75rem;
+}
+  
+.main-section p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.bg-dark-nova {
+    background-color: #003f88;
+    color: white;
+}
+  
+.bg-dark-nova h4,
+.bg-dark-nova p {
+    color: white;
+}
+
+
+/* ESTILO PAGINA SERCICIOS */
+
+.banner-servicios {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+  
+
+/* ORGANIZAR CON BOOSTRAP*/
+
+/* INICIO ESTILO MAIN - OPINIONES */
+.h2opiniones{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.comentarios{
+    width: 100%;
+	padding: 20px 20px;
+    color: black;
+    background-color: white;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr)
+}
+
+.comentarios .comentar{
+	padding: 50px 100px;
+}
+
+.comentarios .comentar h2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.comentar .stars{
+   
+    padding-right: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    font-size: 30px;
+    cursor: pointer;
+    color: gray;
+}
+
+.stars input:not(:checked) + label::before {
+    content: "☆";
+}
+
+.stars input:checked ~ label::before,
+.stars label:hover::before,
+.stars label:hover ~ label::before {
+    content: "★";
+    color: gold;
+}
+
+.comentarios textarea{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: #24303c;
+    border: 3px solid #0a4595;
+    border-radius: 4px;
+}
+
+.frase{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 30px;
+    max-width: 500px;
+}
+
+.frase p{
+    font-size: 30px;
+}
+
+.informacion-contacto .contacto a{
+	color: white;
+}
+
+/* ESTILO CONTACTO */
+
+.main-contacto{
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.main-contacto h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.main-contacto h4{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.main-contacto a{
+    padding-bottom: 15px;
+    color: white;
+}
+
+.main-contacto .formulario{
+    width: 40%;
+    margin-bottom: 60px;
+    padding: 40px 40px;
+    color: white;
+    background-color: #24303c;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.main-contacto .formulario .datos input{
+    width: 80%;
+    margin: 15px 0px;
+    padding: 10px 10px;
+    color: white;
+    background-color: #24303c;
+    border: 3px solid #0a4595;
+    border-radius: 4px;
+}
+
+.main-contacto .formulario .datos textarea{
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    color: white;
+    background-color: #24303c;
+    border: 3px solid #0a4595;
+    border-radius: 4px;
+}
+
+.condiciones input{
+    cursor:  pointer;
+}
+
+.boton-formulario{
+    width: 25%;
+    margin-top: 25px;
+}
+
+.boton-formulario input{
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+    background-color: #24303c;
+    border: 3px solid #0a4595;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.informacion-contacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #24303c;
+    color: white;
+    border-top: 5px solid black;
+}
+
+.informacion-contacto .contacto{
+    width: 50%;
+    padding: 35px 35px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0a4595;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.horario-atencion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #24303c;
+    color: white;
+}
+
+.horario-atencion .texto-imagen{
+    width: 50%;
+    padding: 35px 35px;
+    display: flex;
+    background-color: #0a4595;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.horario-atencion .texto-imagen .atencion{
+    width: 55%;
+    padding-left: 15PX;
+}
+
+.horario-atencion .texto-imagen .atencion ul{
+        padding-left: 15px;
+}
+
+.horario-atencion .texto-imagen img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+/* ORGANIZAR CON BOOSTRAP */
+
+/* ESTILO FOOTER */
+  
+.footer-custom {
+    background-color: #24303c;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+  
+.footer-contact {
+    width: 35%;
+    font-size: 1rem;
+}
+  
+.footer-info {
+    width: 65%;
+    font-size: 0.95rem;
+}
+  
+.footer-custom i {
+    font-size: 1.2rem;
+}
+  
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.9rem;
+    align-items: center;
+}
+  
+.footer-link:hover {
+    text-decoration: underline;
+}
+  

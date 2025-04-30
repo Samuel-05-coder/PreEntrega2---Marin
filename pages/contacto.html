@@ -60,60 +60,56 @@
     </nav>
 
     <main>
-        <section class="main-contacto">
+        <section class="container py-5">
+          <div class="text-center mb-4">
             <h2>DATOS</h2>
-            <h4>"Dejanos tus datos, para más información"</h4>
-            <article class="formulario">
-                <h2>Formulario</h2>
-                <form action="/submit" method="post">
-                    <div class="datos">
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre y Apellido" aria-label="nombre">
-                        <input type="text" name="pais" id="pais" placeholder="Ingrese su pais" aria-label="pais">
-                        <input type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono" aria-label="telefono">
-                        <input type="email" name="correo" placeholder="Ingrese su correo" aria-label="correo">
-                        <textarea name="mensaje" placeholder="Mensaje" aria-label="mensaje"></textarea>
-                    </div>
-
-                    <div class="condiciones">
-                        <label for="condiciones" ><a href="terminos_condiciones.html" target="_blank"><em>Acepto Terminos y Condiciones</em></a></label>
-                        <input type="checkbox" name="condiciones" id="condiciones">
-                    </div>
-
-                    <div class="boton-formulario">
-                        <input type="submit" value="ENVIAR">
-                    </div>
-                </form>
-            </article>
-            
-            <article class="informacion-contacto">
-                <div class="contacto">
-                    <h2>Información de contacto</h2>
-                    <p>Correo: <a href="">soporte@codigonova.com</a></p>
-                    <p>Telefono: +57 321 8140714</p>
-                    <p>Whatsapp: <a href="">321 8140714</a></p>
-                    <p>Sitio Web: <a href="">Codigo Nova</a></p>
+            <h4>"Déjanos tus datos, para más información"</h4>
+          </div>
+      
+          <div class="row justify-content-center">
+            <div class="col-md-6 bg-dark text-white p-4 border border-3 border-black rounded">
+              <h2 class="mb-4">Formulario</h2>
+              <form action="/submit" method="post">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control bg-dark text-white border-primary" id="nombre" name="nombre" placeholder="Ingrese su nombre y apellido">
                 </div>
-            </article>
-                
-            <article class="horario-atencion">
-                <div class="texto-imagen">
-                    <div class="atencion">
-                        <h2>Horario de Atencion</h2>
-                        <h3><strong>Atencion General:</strong></h3>
-                        <p>Lunes a Viernes: 7:00a.m - 6:00p.m</p>
-                        <p>Sabados: 8:00a.m - 2:00p.m</p>
-                        <p><strong>Respuesta Prioritaria:</strong>24/7</p>
-                        <ul>
-                            <li>Caida del sitio web</li>
-                            <li>Errores de servidores</li>
-                            <li>Problemas de seguridad</li>
-                        </ul>
-                    </div>    
-                    <img src="../assets/reloj.png" alt="imagen-reloj">
+      
+                <div class="mb-3">
+                  <label for="pais" class="form-label">País</label>
+                  <input type="text" class="form-control bg-dark text-white border-primary" id="pais" name="pais" placeholder="Ingrese su país">
                 </div>
-            </article>
+      
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="text" class="form-control bg-dark text-white border-primary" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
+                </div>
+      
+                <div class="mb-3">
+                  <label for="correo" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control bg-dark text-white border-primary" id="correo" name="correo" placeholder="Ingrese su correo">
+                </div>
+      
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control bg-dark text-white border-primary" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+      
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" id="condiciones" name="condiciones">
+                  <label class="form-check-label" for="condiciones">
+                    <a href="terminos_condiciones.html" target="_blank" class="text-white"><em>Acepto Términos y Condiciones</em></a>
+                  </label>
+                </div>
+      
+                <button type="submit" class="btn btn-primary w-100">ENVIAR</button>
+              </form>
+            </div>
+          </div>
         </section>
-    </main>
+      </main>
+      
+      
 
     <footer class="footer-custom d-flex flex-column">
         <!-- Zona principal con contacto e info -->

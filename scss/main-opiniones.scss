@@ -23,5 +23,56 @@
         content: "★";
         color: gold;
     }
+}
 
+.contact-info-section {
+    background-image: linear-gradient(to right, #1d5db6, #003f88);
+    color: white; // Ajuste del color del texto para que contraste con el fondo
+    padding: 20px; // Espaciado interno
+    border-radius: 10px; // Bordes redondeados
+
+    h3 {
+        color: #ffffff; // Asegura que los títulos sean visibles
+        text-align: center; // Centra los títulos
+        margin-bottom: 15px;
+    }
+
+    ul {
+        list-style: none; // Elimina los puntos de la lista
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+            color: #e0e0e0; // Color claro para el texto de los elementos de la lista
+
+            strong {
+                color: #ffffff; // Resalta los textos en negrita
+            }
+
+            a {
+                color: #ffdd57; // Color amarillo para los enlaces
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline; // Subrayado al pasar el cursor
+                }
+            }
+        }
+    }
+
+    .d-flex {
+        flex-wrap: wrap; // Asegura que los elementos se ajusten en pantallas pequeñas
+        align-items: center;
+
+        .p-4 {
+            color: #ffffff; // Ajusta el color del texto dentro de los bloques
+        }
+
+        img {
+            max-width: 150px;
+            padding-bottom: 25px;
+            border-radius: 5px; // Bordes ligeramente redondeados para la imagen
+        }
+    }
+}
     

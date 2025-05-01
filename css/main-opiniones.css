@@ -20,4 +20,61 @@
   color: gold;
 }
 
+stars input:checked ~ label::before,
+.stars label:hover::before,
+.stars label:hover ~ label::before {
+  content: "★";
+  color: gold;
+}
+
+.contact-info-section {
+  background-image: linear-gradient(to right, #1d5db6, #003f88);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-info-section h3 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info-section ul li {
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.contact-info-section ul li strong {
+  color: #ffffff;
+}
+
+.contact-info-section ul li a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.contact-info-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact-info-section .d-flex {
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-info-section .d-flex .p-4 {
+  color: #ffffff;
+}
+
+.contact-info-section .d-flex img {
+  max-width: 150px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=main-opiniones.css.map */

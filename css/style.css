@@ -104,7 +104,7 @@
 }
 
 .footer-custom {
-  background-color: #24303c;
+  background-image: linear-gradient(to right, #000000, #24303c) ;
   color: white;
   height: 100px;
   width: 100%;

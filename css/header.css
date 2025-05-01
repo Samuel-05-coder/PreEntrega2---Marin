@@ -1,7 +1,7 @@
 .custom-header {
   width: 100%;
   height: auto;
-  background-color: #24303c;
+  background-image: linear-gradient(to right, #003f88, #24303c) ;
   color: white;
 }
 .custom-header a {

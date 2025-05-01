@@ -1,0 +1,13 @@
+.custom-navbar {
+  background-color: #ffffff;
+  border-bottom: solid 4px black;
+}
+.custom-navbar .nav-link {
+  color: #000000;
+  transition: color 0.2s ease-in-out;
+}
+.custom-navbar .nav-link:hover {
+  color: #000000;
+}
+
+/*# sourceMappingURL=nav.css.map */

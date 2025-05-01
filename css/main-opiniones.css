@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.stars input {
+  display: none;
+}
+.stars label {
+  font-size: 30px;
+  cursor: pointer;
+  color: gray;
+}
+.stars label::before {
+  content: "☆";
+}
+.stars input:not(:checked) + label::before {
+  content: "☆";
+}
+.stars input:checked ~ label::before,
+.stars label:hover::before,
+.stars label:hover ~ label::before {
+  content: "★";
+  color: gold;
+}
+
+/*# sourceMappingURL=main-opiniones.css.map */

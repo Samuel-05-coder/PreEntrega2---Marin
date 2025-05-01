@@ -1,0 +1,33 @@
+
+.custom-header{
+    width: 100%;
+    height: auto;
+    background-color: #24303c;
+    color: white;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+    .header-logo{
+        width: 25%;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+    .header-title{
+        width: 60%;
+        text-align: center;
+
+        h1, 
+        p{
+            color: white;
+        }
+    }
+
+    .header-social{
+        width: 15%;
+    }
+}

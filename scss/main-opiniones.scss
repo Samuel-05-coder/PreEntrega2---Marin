@@ -1,0 +1,26 @@
+.stars {
+    input {
+        display: none;
+    }
+
+    label {
+        font-size: 30px;
+        cursor: pointer;
+        color: gray;
+
+        &::before {
+            content: "☆";
+        }
+    }
+
+    input:not(:checked) + label::before {
+        content: "☆";
+    }
+
+    input:checked ~ label::before,
+    label:hover::before,
+    label:hover ~ label::before {
+        content: "★";
+        color: gold;
+    }
+}

@@ -1,8 +1,14 @@
+#servicios {
+	background-image: linear-gradient(to right, #0401aa, #000000);
+}
+#servicios h2 {
+  color: white;
+}
 .banner-servicios {
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-fit: cover;
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+	object-fit: cover;
 }
 
 /*# sourceMappingURL=main-servicios.css.map */

@@ -28,7 +28,7 @@ stars input:checked ~ label::before,
 }
 
 .contact-info-section {
-  background-image: linear-gradient(to right, #1d5db6, #003f88);
+  background-image: linear-gradient(to right, #0401aa, #000000);
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -72,9 +72,4 @@ stars input:checked ~ label::before,
   color: #ffffff;
 }
 
-.contact-info-section .d-flex img {
-  max-width: 150px;
-  padding-bottom: 25px;
-  border-radius: 5px;
-}
 /*# sourceMappingURL=main-opiniones.css.map */

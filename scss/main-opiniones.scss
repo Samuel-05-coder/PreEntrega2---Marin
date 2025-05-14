@@ -1,10 +1,17 @@
 .stars {
+    width: 135%;
+        min-width: 135px;
+        max-width: 135px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
     input {
         display: none;
     }
 
     label {
-        font-size: 30px;
+        font-size: 2em;
         cursor: pointer;
         color: gray;
 
@@ -25,36 +32,40 @@
     }
 }
 
+.boton-opiniones {
+    width: 20%;
+}
+
 .contact-info-section {
-    background-image: linear-gradient(to right, #1d5db6, #003f88);
-    color: white; // Ajuste del color del texto para que contraste con el fondo
-    padding: 20px; // Espaciado interno
-    border-radius: 10px; // Bordes redondeados
+    background-image: linear-gradient(to right, #0401aa, #000000);
+    color: white;
+    padding: 20px; 
+    border-radius: 10px; 
 
     h3 {
-        color: #ffffff; // Asegura que los títulos sean visibles
-        text-align: center; // Centra los títulos
+        color: #ffffff; 
+        text-align: center; 
         margin-bottom: 15px;
     }
 
     ul {
-        list-style: none; // Elimina los puntos de la lista
+        list-style: none; 
         padding: 0;
 
         li {
             margin-bottom: 10px;
-            color: #e0e0e0; // Color claro para el texto de los elementos de la lista
+            color: #e0e0e0; 
 
             strong {
-                color: #ffffff; // Resalta los textos en negrita
+                color: #ffffff;
             }
 
             a {
-                color: #ffdd57; // Color amarillo para los enlaces
+                color: #ffdd57; 
                 text-decoration: none;
 
                 &:hover {
-                    text-decoration: underline; // Subrayado al pasar el cursor
+                    text-decoration: underline; 
                 }
             }
         }
@@ -66,12 +77,6 @@
 
         .p-4 {
             color: #ffffff; // Ajusta el color del texto dentro de los bloques
-        }
-
-        img {
-            max-width: 150px;
-            padding-bottom: 25px;
-            border-radius: 5px; // Bordes ligeramente redondeados para la imagen
         }
     }
 }

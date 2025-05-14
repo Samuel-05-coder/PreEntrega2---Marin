@@ -1,6 +1,23 @@
-.banner-servicios {
+#servicios {
+    background-image: linear-gradient(to right, #0401aa, #000000);
+
+    h2 {
+        color: white;
+    }
+
+    .banner-servicios {
     width: 100%;
     height: auto;
     max-height: 300px;
     object-fit: cover;
+    }
+
+    .card-body {
+        transition: transform 0.2s, box-shadow 0.2s;
+
+        &:hover {
+            transform: translateY(4px);
+            box-shadow: inset 0 2px 8px rgba(0,0,0,0.25);
+        }
+    }
 }

@@ -1,29 +1,29 @@
 .custom-header {
-  width: 100%;
-  height: auto;
-  background-image: linear-gradient(to right, #003f88, #24303c) ;
-  color: white;
+  	width: 100%;
+  	height: auto;
+  	background-image: linear-gradient(to right, #0401aa, #000000) ;
+  	color: white;
 }
 .custom-header a {
-  color: white;
-  text-decoration: none;
-  font-size: 2em;
+  	color: white;
+  	text-decoration: none;
+  	font-size: 2em;
 }
 .custom-header .header-logo {
-  width: 25%;
-  height: auto;
-  padding-bottom: 5px;
+  	width: 25%;
+  	height: auto;
+  	padding-bottom: 5px;
 }
 .custom-header .header-title {
-  width: 60%;
-  text-align: center;
+  	width: 60%;
+  	text-align: center;
 }
 .custom-header .header-title h1,
 .custom-header .header-title p {
-  color: white;
+  	color: white;
 }
 .custom-header .header-social {
-  width: 15%;
+  	width: 15%;
 }
 
 /*# sourceMappingURL=header.css.map */
